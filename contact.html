@@ -98,10 +98,36 @@
 
 
       <main role="main" class="mdl-layout__content main-content content__container">
-
         <div class="demo-container mdl-grid">
           <!-- LEFT SIDEBAR -->
-          <div class="mdl-card mdl-color--white mdl-shadow--1dp mdl-color-text--grey-800 mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-phone mdl-typography--text-center">
+          <div class="mdl-card mdl-color--white mdl-shadow--1dp mdl-color-text--grey-800 mdl-cell mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-phone">
+            <h5 class="mdl-color-text--primary-dark mdl-typography--text-uppercase">
+              We'd like to hear from you.
+            </h5>
+
+            <form class="mdl-color-text--grey-800 mdl-typography--font-bold">
+              <span>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+              </span>
+              <br>
+
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email">
+
+              <label for="msg">Message</label>
+              <textarea id="msg"></textarea>
+
+              <div class="mdl-card__actions">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-color--primary-dark mdl-color-text--white" href="#">Submit</a>
+              </div>
+            </form>
+
+          </div>
+
+
+          <!-- RIGHT SIDEBAR -->
+          <div class="mdl-card mdl-color--white mdl-shadow--1dp mdl-color-text--grey-800 mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-phone mdl-layout--large-screen-only">
 
             <h5 class="mdl-color-text--primary-dark mdl-typography--text-uppercase">
               Contact us
@@ -134,11 +160,14 @@
               <span class="mdl-typography--font-bold">Facebook us</span>
             </p>
             <p>Afyasoft Platform</p>
-
+            <div class="line"></div>
           </div>
+
         </div>
 
-        
+
+
+
 
         <footer class="demo-footer mdl-mini-footer">
           <div class="mdl-mini-footer--left-section">
